@@ -1,0 +1,150 @@
+{
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // =============================== EDITOR SETTIGNS ===============================
+    "editor.codeLensFontFamily": "Fira Code",
+    "editor.inlayHints.fontFamily": "Fira Code",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.foldingImportsByDefault": true,
+    "editor.letterSpacing": 0.5,
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "editor.foldingMaximumRegions": 10000,
+    "editor.tabSize": 6,
+    "editor.guides.bracketPairs": true,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.8,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    // =============================== JSON FORMAT SETTINGS ===============================
+    "json.maxItemsComputed": 10000,
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // ======================================= SETTING FOR DEBUGGING ======================================
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.autoExpandLazyVariables": true,
+    "debug.console.fontSize": 16,
+    "debug.console.fontFamily": "Fira Code",
+    // ======================================= SETTING FOR INTEGRATED TERMINAl =======================================
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorWidth": 3,
+    "terminal.integrated.cursorStyle": "underline",
+    // ======================================= FILES SETTINGS =======================================
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+      // "**/.classpath": true,
+      // "**/.project": true,
+      // "**/.settings": true,
+      // "**/.factorypath": true,
+      "**/.git/objects/**": true,
+      "**/node_modules/**": true
+    },
+    // ======================================= WORKBENCH SETTINGS =======================================
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 24,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorTheme": "Community Material Theme",
+    "workbench.preferredHighContrastColorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.preferredDarkColorTheme": "Community Material Theme Darker",
+    "workbench.editor.enablePreview": false,
+    // ======================================= EXPLORER SETTINGS =======================================
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // ======================================= LANGUAGES SETTINGS =======================================
+    // ########### JAVA CONFIGURATION ###########
+    /* "[java]": {
+      "editor.formatOnSave": true,
+      "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home",
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home"
+      },
+      {
+        "name": "JavaSE-11",
+        "path": "/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home"
+      },
+      {
+        "name": "JavaSE-9",
+        "path": "/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home",
+        "default": true
+      }
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/klee/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "maven.terminal.useJavaHome": true,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",*/
+    // ########### XML CONFIGURATION ###########
+    /*"[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+    },*/
+    // ########### PYTHON CONFIGURATION ###########
+    /*"python.linting.flake8Enabled": true,
+    "python.formatting.autopep8Args": [
+      "--max-line-length=200",
+      "--ignore=E502,F841,E402"
+    ],
+    "python.linting.flake8Args": ["--ignore=E501,F841,E402"],
+    "python.defaultInterpreterPath": "~/.pyenv/versions/ytubescraper-env",
+    "python.languageServer": "Pylance",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python",
+      "editor.wordBasedSuggestions": false
+    },*/
+    // ########### JAVASCRIPT CONFIGURATION ###########
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // ======================================= EXTENSIONS SETTINGS =======================================
+    // ########### PRETTIER CONFIGURATION ###########
+    "prettier.useTabs": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    // "[html]": {
+    //     "editor.defaultFormatter": "vscode.html-language-features"
+    // },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    // ########### GIT CONFIGURATION ###########
+    "git.confirmSync": false,
+    "git.autorefresh": false,
+    // ########### AWS CONFIGURATION ###########
+    "aws.profile": "profile:default",
+    "aws.telemetry": false,
+    // ########### LIVESERVER CONFIGURATION ###########
+    "liveServer.settings.donotShowInfoMsg": true,
+    // ########### BRACKETPAIRCOLORIZER CONFIGURATION ###########
+    "bracketPairColorizer.depreciation-notice": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.autofetch": true,
+    "tailwindCSS.emmetCompletions": true,
+  }
+  
